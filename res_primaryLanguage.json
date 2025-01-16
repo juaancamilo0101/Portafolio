@@ -1,0 +1,155 @@
+{
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "I am Juan Camilo Peña Marín, a software developer. I currently live in Colombia, I have worked with Python, Java, kotlin, html, php, sql, laravel, databases, react and different languages and tools with the ability to create innovative solutions in both the web and mobile spheres. ",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "studies": "Studies",
+      "experience": "Experience",
+      "cv": "Resume"
+    }
+  },
+  "cv": {
+    "url": "https://raw.githubusercontent.com/juaancamilo82/portafolio/6697855814c3519fb593a9e6360376c94b3629fd/public/CV_JuanCamiloPe%C3%B1aMarinEnglish.pdf",
+    "description": "Download my resume in English here",
+    "function": "Download"
+  },
+  "studies": [
+    {
+      "title": "Software engineering",
+      "mainTech": [
+        "EAM University"
+      ],
+      "date": [
+        "2019 - Actually"
+      ]
+    },
+    {
+      "title": "Certification in Ethical Hacking",
+      "mainTech": [
+        "EAM University"
+      ],
+      "date": [
+        "2024 - Finalized"
+      ]
+    },
+    {
+      "title": "Technology in software development",
+      "mainTech": [
+        "EAM University"
+      ],
+      "date": [
+        "2019 - 2024"
+      ]
+    },
+    {
+      "title": "Advanced English Language Course",
+      "mainTech": [
+        "BNC Colombo Americano"
+      ],
+      "date": [
+        "2018 - 2019"
+      ]
+    },
+    {
+      "title": "Academic Bachelor",
+      "mainTech": [
+        "Nuestra Señora de Fátima School"
+      ],
+      "date": [
+        "2017 - Finalized"
+      ]
+    },
+    {
+      "title": "Computer equipment maintenance technician",
+      "mainTech": [
+        "Sena"
+      ],
+      "date": [
+        "2016 - 2017"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "VPN with Wireguard",
+      "startDate": "2024",
+      "description": "Discover how to create a VPN that allows secure connections to a private network through a server in AWS, using the Docker image for deployment. This free solution ensures data protection and communications integrity in both public and private environments.",
+      "images": [
+        "images/portfolio/vpnWireguard/wireguard.png",
+        "images/portfolio/vpnWireguard/wgeasy.png"
+      ],
+      "url": "https://github.com/juaancamilo82/VPN-con-wireguard",
+      "technologies": [
+        {
+          "class": "devicon-docker-plain",
+          "name": "Docker"
+        },
+        {
+          "class": "devicon-linux-plain",
+          "name": "Linux"
+        },
+        {
+          "class": "devicon-amazonwebservices-plain",
+          "name": "AWS"
+        }
+      ]
+    },
+    {
+      "title": "Telegram Bot",
+      "startDate": "2024",
+      "description": "This project demonstrates how to create a Telegram bot that automatically queries and sends the current price of the dollar in Colombia. Using python-telegram-bot and BeautifulSoup for web scraping. Furthermore, the bot is programmed to send the price daily at a specific time, ensuring regular updates without manual intervention.",
+      "images": [
+        "images/portfolio/botTelegram/img1.png",
+        "images/portfolio/botTelegram/img2.png"
+      ],
+      "url": "https://github.com/juaancamilo82/Bot_Telegram",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "python"
+        }
+      ]
+    },
+    {
+      "title": "Password generator",
+      "startDate": "2024",
+      "description": "I developed a password generator in Python that allows users to create strong, custom passwords. The program offers options to include uppercase letters, lowercase letters, numbers and special characters, and allows you to save the generated passwords in a file and copy the first one to the clipboard.",
+      "images": [
+        "images/portfolio/passwordGenerator/img1.png",
+        "images/portfolio/passwordGenerator/img2.png"
+      ],
+      "url": "https://github.com/juaancamilo82/PasswordGenerator",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Professional Practice in Software Development",
+      "years": "09/2023 - 04/2024",
+      "company": [
+        "Coffee Park"
+      ],
+      "description": [
+        "In my role as a Software Developer at Parque del Café, I performed extensive quality testing and collaborated with engineers to meet deadlines and budgets. They highlighted my achievements in developing a hiring management module and creating an interactive map using Leap Motion technology for the park museum."
+      ]
+    },
+    {
+      "title": "Customer Service and Box Office Operations at Parque del Café",
+      "years": "12/2022 - 09/2023",
+      "company": [
+        "Coffee Park"
+      ],
+      "description": [
+        "As a ticket agent at Parque del Café, I managed ticket sales, oriented visitors to attractions and services, and verified tickets, ensuring an efficient and pleasant experience. My focus on customer satisfaction contributed to a welcoming and positive environment."
+      ]
+    }
+  ]
+}

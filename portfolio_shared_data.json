@@ -1,0 +1,120 @@
+{
+    "basic_info": {
+      "name": "Juan Camilo Peña Marín",
+      "titles": [ "Software Engineer", "Web App Developer", "Full stack developer", "Mobile App Developer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/juaancamilo82",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/_camilo.marin_/",
+          "class": "fab fa-instagram"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/juancamilopeñamarin-6272a7187",
+          "class": "fab fa-linkedin"
+        }
+      ],
+      "image": "myProfile.jpeg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "Angular",
+          "class": "devicon-angularjs-plain",
+          "level": "80"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "90"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "Kotlin",
+          "class": "devicon-kotlin-plain",
+          "level": "75"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "85"
+        },
+        {
+          "name": "Github",
+          "class": "devicon-github-original",
+          "level": "65"
+        },
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain",
+          "level": "60"
+        },
+        {
+          "name": "PHP",
+          "class": "devicon-php-plain",
+          "level": "60"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain-wordmark",
+          "level": "60"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "60"
+        },
+        {
+          "name": "Laravel",
+          "class": "devicon-laravel-original",
+          "level": "60"
+        },
+        {
+          "name": "Linux",
+          "class": "devicon-linux-plain",
+          "level": "60"
+        }
+        ,
+        {
+          "name": "Nodejs",
+          "class": "devicon-nodejs-plain",
+          "level": "60"
+        }
+        ,
+        {
+          "name": "Postgres",
+          "class": "devicon-postgresql-plain",
+          "level": "60"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "60"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-original",
+          "level": "60"
+        }
+      ]
+    }
+  }

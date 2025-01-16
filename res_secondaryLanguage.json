@@ -1,0 +1,156 @@
+{
+    "basic_info": {
+      "description_header": "Hola qué tal?",
+      "description": "Soy Juan Camilo Peña Marín, un desarrollador de software. Actualmente vivo en Colombia, he trabajado con Python, Java, kotlin, html, php, sql, laravel, bases de datos, react y diferentes lenguajes y herramientas con la capacidad para crear soluciones innovadoras tanto en el ámbito web como móvil",
+      "section_name": {
+        "about": "Sobre mi",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "experience": "Experiencia",
+        "studies": "Estudios",
+        "cv": "Hoja de vida"
+      }
+    },
+  "cv": {
+    "url": "\nhttps://raw.githubusercontent.com/juaancamilo82/portafolio/6697855814c3519fb593a9e6360376c94b3629fd/public/CV_JuanCamiloPe%C3%B1aMarinEspa%C3%B1ol.pdf",
+    "description": "Descarga aquí mi hoja de vida en español",
+    "function": "Descargar"
+  },
+    "projects": [
+      {
+        "title": "VPN con Wireguard",
+        "startDate": "2024",
+        "description": "Descubre cómo crear una VPN que permite conexiones seguras a una red privada a través de un servidor en AWS, utilizando la imagen de Docker para su despliegue. Esta solución gratuita garantiza la protección de los datos y la integridad de las comunicaciones en entornos tanto públicos como privados.",
+        "images": [
+          "images/portfolio/vpnWireguard/wireguard.png",
+          "images/portfolio/vpnWireguard/wgeasy.png"
+        ],
+        "url": "https://github.com/juaancamilo82/VPN-con-wireguard",
+        "technologies": [
+          {
+            "class": "devicon-docker-plain",
+            "name": "Docker"
+          },
+          {
+            "class": "devicon-linux-plain",
+            "name": "Linux"
+          },
+          {
+            "class": "devicon-amazonwebservices-plain",
+            "name": "AWS"
+          }
+        ]
+      },
+      {
+        "title": "Bot Telegram",
+        "startDate": "2024",
+        "description": "Este proyecto demuestra cómo crear un bot de Telegram que consulta y envía automáticamente el precio actual del dólar en Colombia. Utilizando python-telegram-bot y BeautifulSoup para la web scraping. Además, el bot está programado para enviar el precio diariamente a una hora específica, asegurando actualizaciones periódicas sin intervención manual.",
+
+        "images": [
+          "images/portfolio/botTelegram/img1.png",
+          "images/portfolio/botTelegram/img2.png"
+        ],
+        "url": "https://github.com/juaancamilo82/Bot_Telegram",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "python"
+          }
+        ]
+      },
+      {
+        "title": "Generador de contraseñas",
+        "startDate": "2024",
+        "description": "Desarrollé un generador de contraseñas en Python que permite a los usuarios crear contraseñas seguras y personalizadas. El programa ofrece opciones para incluir letras mayúsculas, minúsculas, números y caracteres especiales, y permite guardar las contraseñas generadas en un archivo y copiar la primera al portapapeles.",
+        "images": [
+          "images/portfolio/passwordGenerator/img1.png",
+          "images/portfolio/passwordGenerator/img2.png"
+        ],
+        "url": "https://github.com/juaancamilo82/PasswordGenerator",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "Práctica Profesional en Desarrollo de Software",
+        "years": "09/2023 - 04/2024",
+        "company": [
+          "Parque del Café"
+        ],
+        "description": [
+          "En mi rol como Desarrollador de Software en el Parque del Café, realicé pruebas exhaustivas de calidad y colaboré con ingenieros para cumplir con los plazos y presupuestos. Destacaron mis logros en el desarrollo de un módulo de gestión de contrataciones y la creación de un mapa interactivo con tecnología Leap Motion para el museo del parque."
+        ]
+      },
+      {
+        "title": "Atención al Cliente y Operaciones de Taquilla en Parque del Café",
+        "years": "01.2018 - 09.2019",
+        "company": [
+          "Parque del café"
+        ],
+        "description": [
+          "Como taquillero en el Parque del Café, gestioné la venta de tiquetes, orienté a los visitantes sobre las atracciones y servicios, y verifiqué entradas, asegurando una experiencia eficiente y agradable. Mi enfoque en la satisfacción del cliente contribuyó a un ambiente acogedor y positivo."
+        ]
+      }
+    ],
+    "studies": [
+      {
+        "title": "Ingeniería de sofware",
+        "mainTech": [
+          "Universidad EAM"
+        ],
+        "date": [
+         "2019 - Actualmente"
+        ]
+      },
+      {
+        "title": "Certificación en Hacking Ético",
+        "mainTech": [
+          "Universidad EAM"
+        ],
+        "date": [
+          "2024 - Finalizado"
+        ]
+      },
+      {
+        "title": "Tecnología en desarrollo de software",
+        "mainTech": [
+          "Universidad EAM"
+        ],
+        "date": [
+          "2019 - 2024"
+        ]
+      },
+      {
+        "title": "Curso Avanzado de Idioma Inglés",
+        "mainTech": [
+          "BNC Colombo Americano"
+        ],
+        "date": [
+          "2018 - 2019"
+        ]
+      },
+      {
+        "title": "Bachiller académico",
+        "mainTech": [
+          "Colegio Nuestra Señora de Fátima"
+        ],
+        "date": [
+          "2017 - Finalizado"
+        ]
+      },
+      {
+        "title": "Técnico en mantenimiento de equipos de computo",
+        "mainTech": [
+          "Sena"
+        ],
+        "date": [
+          "2016 - 2017"
+        ]
+      }
+    ]
+  }
