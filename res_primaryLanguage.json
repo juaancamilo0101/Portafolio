@@ -78,15 +78,23 @@
       "startDate": "2025",
       "description": "This project consists of a website that facilitates obtaining prior appointments for immigration procedures in Spain.  It offers information about the different types of visas, requirements and procedures, and allows users to request personalized advice. In addition, it includes a contact form to request appointment management. The website is built with HTML, CSS and JavaScript, using the Bootstrap framework for responsive design. EmailJS has been integrated for sending emails through the contact form.",
       "images": [
-        "images/portfolio/CitasExtNet/img1.png",
-        "images/portfolio/CitasExtNet/img2.png",
-        "images/portfolio/CitasExtNet/img3.png"
+        "images/portfolio/CitasExtNet/Img1.png",
+        "images/portfolio/CitasExtNet/Img2.png",
+        "images/portfolio/CitasExtNet/Img3.png"
       ],
-      "url": "https://github.com/juaancamilo0101/CitasExtNet",
+      "url": "https://citasextranjeriazgz.netlify.app/",
       "technologies": [
         {
-          "class": "devicon-python-plain",
-          "name": "python"
+          "class": "devicon-html5-plain",
+          "name": "Html"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "Css"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
         }
       ]
     },

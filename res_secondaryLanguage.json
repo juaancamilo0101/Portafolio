@@ -23,15 +23,23 @@
         "description": "Este proyecto consiste en una página web que facilita la obtención de citas previas para trámites de extranjería en España.  Ofrece información sobre los diferentes tipos de visados, requisitos y procedimientos, y permite a los usuarios solicitar asesoramiento personalizado. Además, incluye un formulario de contacto para solicitar la gestión de citas. La página web está construida con HTML, CSS y JavaScript, utilizando el framework Bootstrap para el diseño responsive. Se ha integrado EmailJS para el envío de correos electrónicos a través del formulario de contacto.",
 
         "images": [
-          "images/portfolio/CitasExtNet/img1.png",
-          "images/portfolio/CitasExtNet/img2.png",
-          "images/portfolio/CitasExtNet/img3.png"
+          "images/portfolio/CitasExtNet/Img1.png",
+          "images/portfolio/CitasExtNet/Img2.png",
+          "images/portfolio/CitasExtNet/Img3.png"
         ],
-        "url": "https://github.com/juaancamilo0101/CitasExtNet",
+        "url": "https://citasextranjeriazgz.netlify.app/",
         "technologies": [
           {
-            "class": "devicon-python-plain",
-            "name": "python"
+            "class": "devicon-html5-plain",
+            "name": "Html"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "Css"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           }
         ]
       },{
