@@ -41,7 +41,7 @@
         "EAM University"
       ],
       "date": [
-        "2019 - 2024"
+        "2019 - 2023"
       ]
     },
     {
@@ -74,6 +74,23 @@
   ],
   "projects": [
     {
+      "title": "Immigration dating page",
+      "startDate": "2025",
+      "description": "This project consists of a website that facilitates obtaining prior appointments for immigration procedures in Spain.  It offers information about the different types of visas, requirements and procedures, and allows users to request personalized advice. In addition, it includes a contact form to request appointment management. The website is built with HTML, CSS and JavaScript, using the Bootstrap framework for responsive design. EmailJS has been integrated for sending emails through the contact form.",
+      "images": [
+        "images/portfolio/CitasExtNet/img1.png",
+        "images/portfolio/CitasExtNet/img2.png",
+        "images/portfolio/CitasExtNet/img3.png"
+      ],
+      "url": "https://github.com/juaancamilo0101/CitasExtNet",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "python"
+        }
+      ]
+    },
+    {
       "title": "VPN with Wireguard",
       "startDate": "2024",
       "description": "Discover how to create a VPN that allows secure connections to a private network through a server in AWS, using the Docker image for deployment. This free solution ensures data protection and communications integrity in both public and private environments.",
@@ -81,7 +98,7 @@
         "images/portfolio/vpnWireguard/wireguard.png",
         "images/portfolio/vpnWireguard/wgeasy.png"
       ],
-      "url": "https://github.com/juaancamilo82/VPN-con-wireguard",
+      "url": "https://github.com/juaancamilo0101/VPN-con-wireguard",
       "technologies": [
         {
           "class": "devicon-docker-plain",
@@ -105,7 +122,7 @@
         "images/portfolio/botTelegram/img1.png",
         "images/portfolio/botTelegram/img2.png"
       ],
-      "url": "https://github.com/juaancamilo82/Bot_Telegram",
+      "url": "https://github.com/juaancamilo0101/Bot_Telegram",
       "technologies": [
         {
           "class": "devicon-python-plain",
@@ -121,7 +138,7 @@
         "images/portfolio/passwordGenerator/img1.png",
         "images/portfolio/passwordGenerator/img2.png"
       ],
-      "url": "https://github.com/juaancamilo82/PasswordGenerator",
+      "url": "https://github.com/juaancamilo0101/PasswordGenerator",
       "technologies": [
         {
           "class": "devicon-python-plain",
