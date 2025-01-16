@@ -18,6 +18,23 @@
   },
     "projects": [
       {
+        "title": "Página citas extranjería",
+        "startDate": "2025",
+        "description": "Este proyecto consiste en una página web que facilita la obtención de citas previas para trámites de extranjería en España.  Ofrece información sobre los diferentes tipos de visados, requisitos y procedimientos, y permite a los usuarios solicitar asesoramiento personalizado. Además, incluye un formulario de contacto para solicitar la gestión de citas. La página web está construida con HTML, CSS y JavaScript, utilizando el framework Bootstrap para el diseño responsive. Se ha integrado EmailJS para el envío de correos electrónicos a través del formulario de contacto.",
+
+        "images": [
+          "images/portfolio/CitasExtNet/img1.png",
+          "images/portfolio/CitasExtNet/img2.png",
+          "images/portfolio/CitasExtNet/img3.png"
+        ],
+        "url": "https://github.com/juaancamilo0101/CitasExtNet",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "python"
+          }
+        ]
+      },{
         "title": "VPN con Wireguard",
         "startDate": "2024",
         "description": "Descubre cómo crear una VPN que permite conexiones seguras a una red privada a través de un servidor en AWS, utilizando la imagen de Docker para su despliegue. Esta solución gratuita garantiza la protección de los datos y la integridad de las comunicaciones en entornos tanto públicos como privados.",
@@ -25,7 +42,7 @@
           "images/portfolio/vpnWireguard/wireguard.png",
           "images/portfolio/vpnWireguard/wgeasy.png"
         ],
-        "url": "https://github.com/juaancamilo82/VPN-con-wireguard",
+        "url": "https://github.com/juaancamilo0101/VPN-con-wireguard",
         "technologies": [
           {
             "class": "devicon-docker-plain",
@@ -50,7 +67,7 @@
           "images/portfolio/botTelegram/img1.png",
           "images/portfolio/botTelegram/img2.png"
         ],
-        "url": "https://github.com/juaancamilo82/Bot_Telegram",
+        "url": "https://github.com/juaancamilo0101/Bot_Telegram",
         "technologies": [
           {
             "class": "devicon-python-plain",
@@ -66,7 +83,7 @@
           "images/portfolio/passwordGenerator/img1.png",
           "images/portfolio/passwordGenerator/img2.png"
         ],
-        "url": "https://github.com/juaancamilo82/PasswordGenerator",
+        "url": "https://github.com/juaancamilo0101/PasswordGenerator",
         "technologies": [
           {
             "class": "devicon-python-plain",
@@ -122,7 +139,7 @@
           "Universidad EAM"
         ],
         "date": [
-          "2019 - 2024"
+          "2019 - 2023"
         ]
       },
       {
