@@ -18,6 +18,30 @@
   },
     "projects": [
       {
+        "title": "Página Web Personal",
+        "startDate": "2025",
+        "description": "Diseño y desarrollo de mi portafolio web personal para mostrar mis habilidades, proyectos y servicios como ingeniero de software. El sitio web está construido con HTML, CSS, JavaScript y Bootstrap, y se implementan funcionalidades de cambio de idioma y un tema oscuro. Además, se integra un formulario de contacto a través de EmailJS.",
+        "images": [
+          "images/portfolio/PersonalWebsite/img1.png",
+          "images/portfolio/PersonalWebsite/img2.png",
+          "images/portfolio/PersonalWebsite/img3.png"
+        ],
+        "url": "https://juancamilomarin.online/",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "Html"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "Css"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },{
         "title": "Página citas extranjería",
         "startDate": "2025",
         "description": "Este proyecto consiste en una página web que facilita la obtención de citas previas para trámites de extranjería en España.  Ofrece información sobre los diferentes tipos de visados, requisitos y procedimientos, y permite a los usuarios solicitar asesoramiento personalizado. Además, incluye un formulario de contacto para solicitar la gestión de citas. La página web está construida con HTML, CSS y JavaScript, utilizando el framework Bootstrap para el diseño responsive. Se ha integrado EmailJS para el envío de correos electrónicos a través del formulario de contacto.",
