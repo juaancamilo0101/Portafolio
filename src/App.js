@@ -26,8 +26,8 @@ class App extends Component {
         document.documentElement.lang = pickedLanguage;
         var resumePath =
             document.documentElement.lang === window.$primaryLanguage
-                ? `res_primaryLanguage.json`
-                : `res_secondaryLanguage.json`;
+                ? `res_secondaryLanguage.json`
+                : `res_primaryLanguage.json`;
         this.loadResumeFromPath(resumePath);
     }
 
