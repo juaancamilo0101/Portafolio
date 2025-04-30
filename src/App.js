@@ -105,8 +105,8 @@ class App extends Component {
                     <div
                         onClick={() =>
                             this.applyPickedLanguage(
-                                window.$primaryLanguage,
-                                window.$secondaryLanguageIconId
+                                window.$secondaryLanguage,
+                                window.$primaryLanguageIconId
                             )
                         }
                         style={{display: "inline"}}
