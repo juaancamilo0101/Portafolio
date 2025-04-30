@@ -134,21 +134,11 @@
         "description": [
           "En mi rol como Desarrollador de Software en el Parque del Café, realicé pruebas exhaustivas de calidad y colaboré con ingenieros para cumplir con los plazos y presupuestos. Destacaron mis logros en el desarrollo de un módulo de gestión de contrataciones y la creación de un mapa interactivo con tecnología Leap Motion para el museo del parque."
         ]
-      },
-      {
-        "title": "Atención al Cliente y Operaciones de Taquilla en Parque del Café",
-        "years": "01.2018 - 09.2019",
-        "company": [
-          "Parque del café"
-        ],
-        "description": [
-          "Como taquillero en el Parque del Café, gestioné la venta de tiquetes, orienté a los visitantes sobre las atracciones y servicios, y verifiqué entradas, asegurando una experiencia eficiente y agradable. Mi enfoque en la satisfacción del cliente contribuyó a un ambiente acogedor y positivo."
-        ]
-      }
+      }    
     ],
     "studies": [
       {
-        "title": "Desarrollo de aplicaciones multiplataforma",
+        "title": "Desarrollo de aplicaciones multiplataforma - España",
         "mainTech": [
           "IES Santiago Hernández"
         ],

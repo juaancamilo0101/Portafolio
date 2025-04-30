@@ -18,7 +18,7 @@
   },
   "studies": [
     {
-      "title": "Cross-platform application development",
+      "title": "Cross-platform application development - Spain",
       "mainTech": [
         "IES Santiago Hernández"
       ],
@@ -196,16 +196,6 @@
       ],
       "description": [
         "In my role as a Software Developer at Parque del Café, I performed extensive quality testing and collaborated with engineers to meet deadlines and budgets. They highlighted my achievements in developing a hiring management module and creating an interactive map using Leap Motion technology for the park museum."
-      ]
-    },
-    {
-      "title": "Customer Service and Box Office Operations at Parque del Café",
-      "years": "12/2022 - 09/2023",
-      "company": [
-        "Coffee Park"
-      ],
-      "description": [
-        "As a ticket agent at Parque del Café, I managed ticket sales, oriented visitors to attractions and services, and verified tickets, ensuring an efficient and pleasant experience. My focus on customer satisfaction contributed to a welcoming and positive environment."
       ]
     }
   ]
