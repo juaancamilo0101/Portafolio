@@ -47,8 +47,8 @@ class App extends Component {
     componentDidMount() {
         this.loadSharedData();
         this.applyPickedLanguage(
-            window.$primaryLanguage,
             window.$secondaryLanguageIconId,
+            window.$primaryLanguageIconId,
         );
     }
 
@@ -89,8 +89,8 @@ class App extends Component {
                     <div
                         onClick={() =>
                             this.applyPickedLanguage(
-                                window.$primaryLanguage,
-                                window.$secondaryLanguageIconId
+                                window.$secondaryLanguageIconId,
+                                window.$primaryLanguageIconId
                             )
                         }
                         style={{display: "inline"}}
@@ -99,7 +99,7 @@ class App extends Component {
                 className="iconify language-icon mr-5"
                 data-icon="twemoji-flag-for-flag-united-states"
                 data-inline="false"
-                id={window.$secondaryLanguageIconId}
+                id={window.$primaryLanguageIconId}
             ></span>
                     </div>
                     <div
@@ -115,7 +115,7 @@ class App extends Component {
                 className="iconify language-icon"
                 data-icon="twemoji-flag-for-flag-spain"
                 data-inline="false"
-                id={window.$primaryLanguageIconId}
+                id={window.$secondaryLanguageIconId}
             ></span>
                     </div>
                 </div>
