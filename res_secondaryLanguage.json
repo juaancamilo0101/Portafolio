@@ -1,7 +1,9 @@
 {
     "basic_info": {
       "description_header": "Hola qué tal?",
-      "description": "Soy Juan Camilo Peña Marín, un desarrollador de software Colombiano. Actualmente vivo en España, he trabajado con Python, Java, kotlin, html, php, sql, laravel, bases de datos, react y diferentes lenguajes y herramientas con la capacidad para crear soluciones innovadoras tanto en el ámbito web como móvil",
+      "description": "Soy Juan Camilo Peña Marín, ingeniero de software colombiano, actualmente residenciado en España. Cuento con sólida experiencia en desarrollo backend y frontend, especializado en tecnologías como Node.js, React y Laravel. Además, he trabajado con Python, Java, Kotlin, PHP, HTML, SQL y tengo amplios conocimientos en el diseño y gestión de bases de datos como MySQL, PostgreSQL y MongoDB.
+He desarrollado APIs REST y aplicaciones web y móviles escalables, siempre enfocado en la creación de soluciones tecnológicas de alto impacto. Me destaco por mi capacidad para optimizar procesos, resolver problemas complejos y trabajar colaborativamente en equipos multidisciplinarios bajo metodologías ágiles como Scrum.
+Soy una persona proactiva, responsable y orientada a resultados, comprometida con la mejora continua y la excelencia. Actualmente, busco integrarme a una empresa que valore la eficiencia, la innovación y el crecimiento profesional, donde pueda aportar mi experiencia y seguir creciendo como profesional.",
       "section_name": {
         "about": "Sobre mi",
         "projects": "Proyectos",
