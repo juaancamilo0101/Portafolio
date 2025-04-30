@@ -27,7 +27,7 @@ class App extends Component {
         var resumePath =
             document.documentElement.lang === window.$primaryLanguage
                 ? `res_secondaryLanguage.json`
-                : `res_primaryLanguage.json`;
+                : `res_primaryLanguaj.json`;
         this.loadResumeFromPath(resumePath);
     }
 
@@ -47,8 +47,8 @@ class App extends Component {
     componentDidMount() {
         this.loadSharedData();
         this.applyPickedLanguage(
+            window.$primaryLanguage,
             window.$secondaryLanguageIconId,
-            window.$primaryLanguageIconId,
         );
     }
 
@@ -89,12 +89,18 @@ class App extends Component {
                     <div
                         onClick={() =>
                             this.applyPickedLanguage(
-                                window.$secondaryLanguageIconId,
-                                window.$primaryLanguageIconId
+                                window.$primaryLanguage,
+                                window.$secondaryLanguageIconId
                             )
                         }
                         style={{display: "inline"}}
                     >
+           <span
+                className="iconify language-icon"
+                data-icon="twemoji-flag-for-flag-spain"
+                data-inline="false"
+                id={window.$secondaryLanguageIconId}
+            ></span>
             <span
                 className="iconify language-icon mr-5"
                 data-icon="twemoji-flag-for-flag-united-states"
@@ -111,12 +117,7 @@ class App extends Component {
                         }
                         style={{display: "inline"}}
                     >
-            <span
-                className="iconify language-icon"
-                data-icon="twemoji-flag-for-flag-spain"
-                data-inline="false"
-                id={window.$secondaryLanguageIconId}
-            ></span>
+            
                     </div>
                 </div>
                 <About
