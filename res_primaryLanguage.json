@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "I’m Juan Camilo Peña Marín, a Colombian Software Engineer currently living in Spain. I have strong experience in backend and frontend development, specializing in technologies such as Node.js, React, and Laravel. Additionally, I’ve worked with Python, Java, Kotlin, PHP, HTML, and SQL, and I have extensive knowledge in designing and managing databases like MySQL, PostgreSQL, and MongoDB. I’ve developed REST APIs and scalable web and mobile applications, always focused on creating high-impact technological solutions. I stand out for my ability to optimize processes, solve complex problems, and collaborate in multidisciplinary teams using agile methodologies such as Scrum. I’m a proactive, responsible, and results-driven individual, committed to continuous improvement and excellence. I am currently seeking to join a company that values efficiency, innovation, and professional growth, where I can contribute my technical expertise and continue evolving in my career.",
+    "description": "I'm Juan Camilo Peña Marín, a Colombian Software Engineer based in Spain, with experience in both backend and frontend development. I work with technologies like Node.js, React, Laravel, Python, Java, Kotlin, PHP, and databases such as MySQL, PostgreSQL, and MongoDB. I've built REST APIs and scalable web and mobile apps, applying agile methodologies like Scrum. I'm proactive, results-driven, and committed to continuous improvement. I’m looking to contribute my experience to a company that values efficiency, innovation, and professional growth.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
