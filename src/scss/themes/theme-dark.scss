@@ -2,13 +2,14 @@ body[data-theme="dark"] {
 
    @import '../src/scss/dark-slider.scss';
 
-   // Paleta base
+   // Paleta
    $dark-bg: #1f1f1f;
    $dark-surface: #2c2c2c;
    $dark-hover: #3a3a3a;
    $accent-gray: #8c8c8c;
    $accent-light: #b5b5b5;
    $white: #ffffff;
+   $black: #000000;
 
    background-color: $dark-bg;
    color: $white;
@@ -105,9 +106,10 @@ body[data-theme="dark"] {
          background: $accent-gray !important;
       }
 
+      // EXCEPCIÓN para pantallas pequeñas
       @media only screen and (max-width: 1169px) {
          .vertical-timeline-element-date {
-            color: $dark-surface;
+            color: $black; // texto negro en lugar de blanco
          }
       }
    }
@@ -119,5 +121,10 @@ body[data-theme="dark"] {
 
    .close-icon {
       color: $white;
+   }
+
+   // Si hay otros elementos donde quieras texto negro, los puedes agregar así:
+   .text-black {
+      color: $black !important;
    }
 }
