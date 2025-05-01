@@ -1,113 +1,123 @@
-body[data-theme="dark"] {  
+body[data-theme="dark"] {
 
    @import '../src/scss/dark-slider.scss';
 
+   // Paleta base
+   $dark-bg: #1f1f1f;
+   $dark-surface: #2c2c2c;
+   $dark-hover: #3a3a3a;
+   $accent-gray: #8c8c8c;
+   $accent-light: #b5b5b5;
+   $white: #ffffff;
+
+   background-color: $dark-bg;
+   color: $white;
 
    .slider-tab {
-      background-color: #8C8C8C;
+      background-color: $accent-gray;
    }
 
    .title-styles {
-      color: white;
+      color: $white;
    }
 
    .header-icon {
-      color: #3C342C;
+      color: $accent-light;
       opacity: 0.8;
    }
 
    .slider-image {
-      border: 5px solid #8C8C8C;
+      border: 5px solid $accent-gray;
    }
 
    .language {
-      background-color: #636363;
+      background-color: $dark-surface;
    }
 
    .link-href {
-      color: white;
+      color: $white;
    }
 
    .project-date {
-      background-color: #918e97;
-      color: white;
+      background-color: $dark-hover;
+      color: $white;
    }
 
    header {
-      background-color: #636363;
+      background-color: $dark-surface;
       h1 {
-         color: white;
+         color: $white;
       }
    }
 
    #about {
-      background-color: #5f5f5f;
+      background-color: $dark-surface;
       h1 span {
-         color: white;
+         color: $white;
       }
+
       .polaroid span {
-         background:  #6d6d6d;
+         background: $dark-hover;
       }
+
       .card {
-         background: #6d6d6d;
-         color: white;
+         background: $dark-hover;
+         color: $white;
       }
    }
 
    #portfolio {
-      background: #5b5b5b;
+      background: $dark-surface;
+
       .section-title {
-         color: white !important;
+         color: $white !important;
       }
+
       .foto div {
-         background: #6d6d6d;
+         background: $dark-hover;
       }
+
       .project-title-settings {
-         color: white;
+         color: $white;
       }
    }
 
    #resume {
-      filter: brightness(80%);
-      background: #5b5b5b;
+      background: $dark-surface;
+      filter: brightness(95%);
+
       .section-title {
-         color: white !important;
+         color: $white !important;
       }
 
-      .experience-badge {
-         background: #919191 !important;
-         color: white;
-      }
-
-      .studies-badge {
-         background: #919191 !important;
-         color: white;
-      }
-
+      .experience-badge,
+      .studies-badge,
       .main-badge {
-         background: #919191 !important;
+         background: $accent-gray !important;
+         color: $white;
       }
 
       .vertical-timeline-element-date {
-         color: white;
+         color: $white;
       }
 
       .vertical-timeline-element-icon {
-         background: #919191 !important;
+         background: $accent-gray !important;
       }
-      @media only screen and (max-width: 1169px) { 
+
+      @media only screen and (max-width: 1169px) {
          .vertical-timeline-element-date {
-            color: black;
+            color: $dark-surface;
          }
       }
    }
 
    .modal-inside .modal-content {
-      background: #5b5b5b;
-      color: white;
+      background: $dark-hover;
+      color: $white;
    }
 
    .close-icon {
-      color: white;
+      color: $white;
    }
 }
