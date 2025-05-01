@@ -1,130 +1,112 @@
-body[data-theme="dark"] {
+body[data-theme="dark"] {  
 
    @import '../src/scss/dark-slider.scss';
 
-   // Paleta
-   $dark-bg: #1f1f1f;
-   $dark-surface: #2c2c2c;
-   $dark-hover: #3a3a3a;
-   $accent-gray: #8c8c8c;
-   $accent-light: #b5b5b5;
-   $white: #ffffff;
-   $black: #000000;
-
-   background-color: $dark-bg;
-   color: $white;
-
    .slider-tab {
-      background-color: $accent-gray;
+      background-color: #2f2f2f;
    }
 
    .title-styles {
-      color: $white;
+      color: white;
    }
 
    .header-icon {
-      color: $accent-light;
+      color: #3C342C;
       opacity: 0.8;
    }
 
    .slider-image {
-      border: 5px solid $accent-gray;
+      border: 5px solid #2f2f2f;
    }
 
    .language {
-      background-color: $dark-surface;
+      background-color: #3a3a3a;
    }
 
    .link-href {
-      color: $white;
+      color: white;
    }
 
    .project-date {
-      background-color: $dark-hover;
-      color: $white;
+      background-color: #444;
+      color: white;
    }
 
    header {
-      background-color: $dark-surface;
+      background-color: #3a3a3a;
       h1 {
-         color: $white;
+         color: white;
       }
    }
 
    #about {
-      background-color: $dark-surface;
+      background-color: #2d2d2d;
       h1 span {
-         color: $white;
+         color: white;
       }
-
       .polaroid span {
-         background: $dark-hover;
+         background: #3a3a3a;
       }
-
       .card {
-         background: $dark-hover;
-         color: $white;
+         background: #3a3a3a;
+         color: white;
       }
    }
 
    #portfolio {
-      background: $dark-surface;
-
+      background: #252525;
       .section-title {
-         color: $white !important;
+         color: white !important;
       }
-
       .foto div {
-         background: $dark-hover;
+         background: #3a3a3a;
       }
-
       .project-title-settings {
-         color: $white;
+         color: white;
       }
    }
 
    #resume {
-      background: $dark-surface;
-      filter: brightness(95%);
-
+      filter: brightness(90%);
+      background: #252525;
       .section-title {
-         color: $white !important;
+         color: white !important;
       }
 
-      .experience-badge,
-      .studies-badge,
+      .experience-badge {
+         background: #4b4b4b !important;
+         color: white;
+      }
+
+      .studies-badge {
+         background: #4b4b4b !important;
+         color: white;
+      }
+
       .main-badge {
-         background: $accent-gray !important;
-         color: $white;
+         background: #4b4b4b !important;
       }
 
       .vertical-timeline-element-date {
-         color: $white;
+         color: white;
       }
 
       .vertical-timeline-element-icon {
-         background: $accent-gray !important;
+         background: #4b4b4b !important;
       }
-
-      // EXCEPCIÓN para pantallas pequeñas
-      @media only screen and (max-width: 1169px) {
+      @media only screen and (max-width: 1169px) { 
          .vertical-timeline-element-date {
-            color: $black; // texto negro en lugar de blanco
+            color: black;
          }
       }
    }
 
    .modal-inside .modal-content {
-      background: $dark-hover;
-      color: $white;
+      background: #2e2e2e;
+      color: white;
    }
 
    .close-icon {
-      color: $white;
-   }
-
-   // Si hay otros elementos donde quieras texto negro, los puedes agregar así:
-   .text-black {
-      color: $black !important;
+      color: white;
    }
 }
