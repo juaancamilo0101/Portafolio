@@ -39,6 +39,11 @@
           "level": "80"
         },
         {
+          "name": ".Net",
+          "class": "devicon-dotnetcore-plain",
+          "level": "60"
+        },
+        {
           "name": "TypeScript",
           "class": "devicon-typescript-plain",
           "level": "90"
@@ -115,6 +120,7 @@
           "class": "devicon-react-original",
           "level": "60"
         }
+        
       ]
     }
   }
